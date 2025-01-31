@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="assets/favicon.png" rel="icon" />
+    <link href="assets/favicon.png" rel="apple-touch-icon" />
+  </head>
+
+  <body>
+    <!-- Menu-->
+    <nav id="desktop-nav">
+      <div class="logo">André Luís Fernandes</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#profile">Perfil</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!---->
+
+    <!-- Menu hamburguer-->
+    <nav id="hamburger-nav">
+      <div class="logo">André</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#profile" onclick="toggleMenu()">Perfil</a></li>
+          <li><a href="#portfolio" onclick="toggleMenu()">Portfólio</a></li>
+          <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <!---->
+
+    <!-- Perfil-->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/foto_perfil.png" alt="Andre Luis Fernandes" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, Eu sou :</p>
+        <h1 class="title">André Luís Fernandes</h1>
+        <p class="section__text__p2">Desenvolvedor Full Stack</p>
+        <br />
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/curriculo_andre2024.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contato'">
+            Contato
+          </button>
+        </div>
+        <br />
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/andrelfernan/', '_blank')"/>
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/Andre-StudioNerd', '_blank')"/>
+        </div>
+      </div>
+    </section>
+    <!---->
+    
+    <!-- Portfolio-->
+    <section id="portfolio">
+      <p class="section__text__p1">Conheça meus trabalhos</p>
+      <h1 class="title">Portfólio</h1>
+      <div class="section-container1">
+        <div class="about-details-container">
+          <div class="about-containers">
+
+            <div class="details-container">
+              <h3>Projeto Sentinela</h3>
+              <a href="projeto-sentinela.vercel.app" target="_blank">Visitar o site</a>
+              <p class="details-proj">React | Javascript</p>
+              <p class="details-proj">HTML5 | CSS3</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Agenta de Tarefas</h3>
+              <a href="https://agendatarefaandre.netlify.app" target="_blank">Visitar o site</a>
+              <p class="details-proj">React | Node.js | MongoDB</p>
+              <p class="details-proj">HTML5 | CSS3</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Celebre o Sim</h3>
+              <a href="https://celebreosim.com.br" target="_blank">Visitar o site</a>
+              <p class="details-proj">Wordpress | PHP | Mysql</p>
+              <p class="details-proj">HTML5 | CSS3</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Jogo da Cobra</h3>
+              <a href="https://andre-studionerd.github.io/Cobra/" target="_blank">Visitar o site</a>
+              <p class="details-proj">HTML5 | CSS3 | Javascript</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section-container1">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Sitessauro</h3>
+              <a href="https://andre-studionerd.github.io/Sitessauro/" target="_blank">Visitar o site</a>
+              <p class="details-proj">HTML5 | CSS3 | Javascript</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Nubank LP</h3>
+              <a href="https://andre-studionerd.github.io/nubank/" target="_blank" >Visitar o site</a>
+              <p class="details-proj">HTML5 | CSS3 | Javascript</p>
+            </div>
+
+            <div class="details-container">
+              <h3>CDZ</h3>
+              <a href="https://andre-studionerd.github.io/cdz/" target="_blank">Visitar o site</a>
+              <p class="details-proj">HTML5 | CSS3 | Javascript</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Andreia T.</h3>
+              <a href="http://andreiateixeira.adv.br" target="_blank">Visitar o site</a>
+              <p class="details-proj">Wordpress | PHP | Mysql</p>
+              <p class="details-proj">HTML5 | CSS3</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section-container1">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>C. Atos</h3>
+              <a href="https://clinicamedicaatos.com.br" target="_blank">Visitar o site</a>
+              <p class="details-proj">Wordpress | PHP | Mysql</p>
+              <p class="details-proj">HTML5 | CSS3</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Mattos</h3>
+              <a href="https://mattosadv.com.br" target="_blank">Visitar o site</a>
+              <p class="details-proj">Wordpress | PHP | Mysql</p>
+              <p class="details-proj">HTML5 | CSS3 | Javascript</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Em. Imóveis</h3>
+              <a href="https://empresarialimoveis.com.br" target="_blank">Visitar o site</a>
+              <p class="details-proj">HTML5 | CSS3 | Javascript</p>
+              <p class="details-proj">PHP | Mysql</p>
+            </div>
+
+            <div class="details-container">
+              <h3>Athenas</h3>
+              <a href="https://athenasimoveisrp.com.br" target="_blank">Visitar o site</a>
+              <p class="details-proj">HTML5 | CSS3 | Javascript</p>
+              <p class="details-proj">PHP | Mysql</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+
+    <!-- Contato-->
+    <section id="contato">
+      <p class="section__text__p1">Entre em</p>
+      <h1 class="title">Contato</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon_contato contact-icon"/>
+          <p><a href="https://www.linkedin.com/in/andrelfernan/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <!---->
+
+
+    <!-- Footer-->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#profile">Perfil</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 - André Luís Fernandes. Todos os direitos reservados.</p>
+    </footer>
+   <!----> 
+    <script src="script.js"></script>
+  </body>
+</html>
