@@ -543,3 +543,8 @@ footer p {
 .nav-links-container{
   margin-top: 10px;
 }
+
+.text_contact{
+  text-align: justify;
+  align-items: center;
+}
