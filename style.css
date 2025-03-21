@@ -57,6 +57,10 @@ nav {
   font-size: 1rem;
 }
 
+.nav-links a:hover{
+  text-decoration: none;
+}
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -170,7 +174,7 @@ li {
 
 section {
   padding-top: 4vh;
-  height: 40vh;
+  height: auto;
   box-sizing: border-box;
   min-height: fit-content;
 }
