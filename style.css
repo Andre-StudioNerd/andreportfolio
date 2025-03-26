@@ -517,6 +517,8 @@ article .icon {
 
 .contact-info-container p {
   font-size: larger;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .contact-info-container a {
