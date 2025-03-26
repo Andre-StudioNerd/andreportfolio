@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: black;
+  background-image: linear-gradient(to bottom, #19101c, #19111d, #19121d, #1a121e, #1a131e, #1d1521, #1f1824, #221a27, #281e2d, #2e2334, #34273a, #3a2c41);
+  
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
@@ -244,6 +245,8 @@ section {
 }
 
 .img_profile {
+  border: #62476F solid 8px;
+  border-radius: 200px;
 }
 
 .title {
