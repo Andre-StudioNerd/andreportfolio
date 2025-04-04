@@ -66,6 +66,7 @@ a {
   color: #ffffff;
   text-decoration: none;
   text-decoration-color: white;
+  font-size: 12px;
 }
 
 a:hover {
@@ -73,6 +74,7 @@ a:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
+  font-size: 12px;
 }
 
 li {
@@ -185,6 +187,12 @@ section {
   margin-right: 5%;
 }
 
+.icon_port{
+  font-size: 50px;
+  color:#89669d;
+  margin-bottom: 5px;
+}
+
 #contato {
   margin-left: 10%;
   margin-right: 10%;
@@ -209,6 +217,10 @@ section {
   height: 50vh;
   margin-bottom: 50px;
   margin-top: 10px;
+}
+
+.box_profile{
+  margin-bottom: 50px;
 }
 
 .section-container1{
@@ -261,6 +273,7 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* ICONS */
@@ -380,6 +393,7 @@ section {
   padding-right: 8px;
   border-radius: 5px;
   margin-bottom: 5px;
+  
 }
 
 .space_visitar {
