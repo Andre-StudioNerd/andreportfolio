@@ -256,6 +256,13 @@ section {
   margin-bottom: 1rem;
 }
 
+.section__text__p3 p{
+  font-size: 15px;
+  color:#fff;
+  text-align: justify;
+
+}
+
 .img_profile {
   border: #62476F solid 8px;
   border-radius: 200px;
