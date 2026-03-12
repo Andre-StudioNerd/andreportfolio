@@ -206,6 +206,35 @@ section {
   color: #89669d;
   margin-bottom: 5px;
 }
+.icon_port_js {
+  font-size: 50px;
+  color: #ffd600;
+  margin-bottom: 5px;
+}
+
+.icon_port_py {
+  font-size: 50px;
+  color: #34678e;
+  margin-bottom: 5px;
+}
+
+.icon_port_php {
+  font-size: 50px;
+  color: #f35045;
+  margin-bottom: 5px;
+}
+
+.icon_port_rt {
+  font-size: 50px;
+  color: #61dafb;
+  margin-bottom: 5px;
+}
+
+.icon_port_wp {
+  font-size: 50px;
+  color: #494949;
+  margin-bottom: 5px;
+}
 
 #contato {
   margin-left: 10%;
@@ -310,9 +339,7 @@ section {
 }
 
 .icon:hover {
-  cursor: pointer;
-  height: 2.8rem;
-  margin-right: 5px;
+  opacity: 0.5;
 }
 
 /* BUTTONS */
