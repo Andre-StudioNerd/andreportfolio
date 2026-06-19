@@ -964,11 +964,19 @@
         </div>
       </nav>
       <p>
-        Copyright &#169; 2025 - André Luís Fernandes. Todos os direitos
-        reservados.
+        Copyright &#169;
+        <span id="ano-atual"></span>
+        - André Luís Fernandes. Todos os direitos reservados.
       </p>
     </footer>
     <!---->
     <script src="script.js"></script>
+    <script>
+      // Captura o ano atual usando o objeto Date
+      const ano = new Date().getFullYear();
+
+      // Insere o ano dentro do elemento span com o id "ano-atual"
+      document.getElementById("ano-atual").textContent = ano;
+    </script>
   </body>
 </html>
