@@ -1,6 +1,12 @@
 // 1. Lista de todos os seus projetos (Facilidade total para adicionar ou deletar)
 const projects = [
   {
+    title: "AppBank",
+    iconClass: "fa-brands fa-react icon_port_rt",
+    link: "https://bank-sigma-lilac.vercel.app/",
+    techs: ["React | Javascript", "HTML5 | CSS3"],
+  },
+  {
     title: "Discoteca",
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://github.com/Andre-StudioNerd/Discoteca",
@@ -322,8 +328,8 @@ function renderProjects() {
   container.innerHTML = ""; // Limpa o contêiner
 
   // Agrupa os projetos de 4 em 4 para manter a estrutura CSS das suas classes antigas
-  for (let i = 0; i < projects.length; i += 4) {
-    const chunk = projects.slice(i, i + 4);
+  for (let i = 0; i < projects.length; i += 5) {
+    const chunk = projects.slice(i, i + 5);
 
     // Cria a estrutura de blocos herdada do seu HTML original
     const sectionContainer = document.createElement("div");
