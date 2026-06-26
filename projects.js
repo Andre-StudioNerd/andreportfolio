@@ -328,8 +328,8 @@ function renderProjects() {
   container.innerHTML = ""; // Limpa o contêiner
 
   // Agrupa os projetos de 4 em 4 para manter a estrutura CSS das suas classes antigas
-  for (let i = 0; i < projects.length; i += 5) {
-    const chunk = projects.slice(i, i + 5);
+  for (let i = 0; i < projects.length; i += 4) {
+    const chunk = projects.slice(i, i + 4);
 
     // Cria a estrutura de blocos herdada do seu HTML original
     const sectionContainer = document.createElement("div");
