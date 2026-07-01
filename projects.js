@@ -359,9 +359,8 @@ function renderProjects() {
       projectCard.innerHTML = `
         <h3>${project.title}</h3>
         <p class="${project.iconClass.split(" ").pop()}"><i class="${project.iconClass}"></i></p>
-        <a href="${project.link}" target="_blank" class="btnlink">
-          Acessar o Site
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        <a href="${project.link}" target="_blank" class="btnlink"> Acessar o Site
+
         </a>
         ${techParagraphs}
       `;

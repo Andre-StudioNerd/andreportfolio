@@ -62,7 +62,7 @@ nav {
   align-items: center;
   height: 17vh;
   background-color: #34273a;
-  border: solid 3px #ffffff;
+  border-bottom: solid 3px #ffffff;
 }
 
 .nav-links {
