@@ -1,18 +1,6 @@
 // 1. Lista de todos os seus projetos (Facilidade total para adicionar ou deletar)
 const projects = [
   {
-    title: "Blog Front-End",
-    iconClass: "fa-brands fa-react icon_port_rt",
-    link: "https://github.com/Andre-StudioNerd/Front_codemain",
-    techs: ["React | Javascript", "HTML5 | CSS3"],
-  },
-  {
-    title: "Blog Back-End",
-    iconClass: "fa-brands fa-react icon_port_rt",
-    link: "https://github.com/Andre-StudioNerd/Back_Codemain",
-    techs: ["React | Javascript", "HTML5 | CSS3"],
-  },
-  {
     title: "Blog Hog",
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://blog-hoqwarts.vercel.app/",
@@ -335,6 +323,18 @@ const projects = [
     iconClass: "fa-brands fa-js icon_port_js",
     link: "https://andre-studionerd.github.io/Gerador_QRcode/",
     techs: ["Javascript", "HTML5 | CSS3"],
+  },
+  {
+    title: "Blog Front-End",
+    iconClass: "fa-brands fa-react icon_port_rt",
+    link: "https://github.com/Andre-StudioNerd/Front_codemain",
+    techs: ["React | Javascript", "HTML5 | CSS3"],
+  },
+  {
+    title: "Blog Back-End",
+    iconClass: "fa-brands fa-react icon_port_rt",
+    link: "https://github.com/Andre-StudioNerd/Back_Codemain",
+    techs: ["React | Javascript", "HTML5 | CSS3"],
   },
 ];
 
