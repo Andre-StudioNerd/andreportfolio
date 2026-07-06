@@ -326,13 +326,13 @@ const projects = [
   },
   {
     title: "Blog Front-End",
-    iconClass: "fa-brands fa-react icon_port_rt",
+    iconClass: "fa-brands fa-github icon_port_gt",
     link: "https://github.com/Andre-StudioNerd/Front_codemain",
     techs: ["React | Javascript", "HTML5 | CSS3"],
   },
   {
     title: "Blog Back-End",
-    iconClass: "fa-brands fa-react icon_port_rt",
+    iconClass: "fa-brands fa-github icon_port_gt",
     link: "https://github.com/Andre-StudioNerd/Back_Codemain",
     techs: ["React | Javascript", "HTML5 | CSS3"],
   },
