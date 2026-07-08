@@ -336,6 +336,12 @@ const projects = [
     link: "https://github.com/Andre-StudioNerd/Back_Codemain",
     techs: ["React | Javascript", "HTML5 | CSS3"],
   },
+  {
+    title: "react-runner-circle",
+    iconClass: "fa-brands fa-github icon_port_gt",
+    link: "https://github.com/Andre-StudioNerd/react-runner-circle",
+    techs: ["React | Javascript", "HTML5 | CSS3 | GraphQL"],
+  },
 ];
 
 // 2. Função para renderizar os projetos organizados em grupos de até 4 itens (como no seu layout original)
