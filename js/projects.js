@@ -120,8 +120,8 @@ const projects = [
     techs: ["Python"],
   },
   {
-    title: "Laravel",
-    iconClass: "fa-brands fa-php icon_port_php",
+    title: "Laravel Back-End",
+    iconClass: "fa-brands fa-github icon_port_gt",
     link: "https://github.com/Andre-StudioNerd/projeto_Laravel",
     category: "php",
     techs: ["PHP | Laravel"],
