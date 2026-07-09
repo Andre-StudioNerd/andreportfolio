@@ -278,7 +278,7 @@ const projects = [
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://agendatarefaandre.netlify.app",
     category: "react",
-    techs: ["React | Node.js | MongoDB", "HTML5 | CSS3"],
+    techs: ["React | MongoDB", "HTML5 | CSS3"],
   },
   {
     title: "Celebre o Sim",
