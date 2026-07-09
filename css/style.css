@@ -655,3 +655,29 @@ footer p {
 
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* --- Estilização das Abas (Tabs) --- */
+
+/* Garante que os botões tenham uma transição suave ao clicar ou passar o mouse */
+.tab-btn {
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  opacity: 0.6; /* Deixa os botões inativos levemos mente opacos */
+}
+
+/* Efeito de Hover (Passar o mouse) nos botões inativos */
+.tab-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px); /* Leve levantamento */
+}
+
+/* --- CLASSE ATIVA (O pulo do gato) --- */
+.tab-btn.active {
+  opacity: 1; /* Opacidade total para destaque */
+  background-color: #8a6aa0; /* Cor de fundo escura (ajuste conforme seu tema) */
+  color: #ffffff; /* Cor do texto branca */
+  border-color: #353535;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra para dar profundidade */
+  transform: translateY(0);
+}

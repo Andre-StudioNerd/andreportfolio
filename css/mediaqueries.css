@@ -155,3 +155,28 @@
     text-align: justify;
   }
 }
+
+/* --- Responsividade para as Abas --- */
+
+/* Ativa quando a tela for menor ou igual a 600px (celulares) */
+@media screen and (max-width: 600px) {
+  .tabs-container {
+    flex-direction: column; /* Muda de horizontal para vertical */
+    align-items: stretch; /* Faz os botões ocuparem a largura total disponível */
+    gap: 10px !important; /* Diminui um pouco o espaço entre eles no celular */
+    padding: 0 20px; /* Adiciona uma folga nas laterais para não colar na tela */
+  }
+
+  .tab-btn {
+    width: 100%; /* Garante que o botão use todo o espaço */
+    text-align: center;
+    padding: 12px 0; /* Deixa o botão ligeiramente mais alto para facilitar o toque */
+  }
+
+  /* Opcional: Ajusta a linha decorativa do botão ativo para o modo vertical */
+  .tab-btn.active::after {
+    bottom: 2px;
+    left: 5%;
+    width: 90%;
+  }
+}

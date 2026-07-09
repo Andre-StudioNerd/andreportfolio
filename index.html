@@ -17,7 +17,6 @@
   </head>
 
   <body>
-    <!-- Menu-->
     <nav id="desktop-nav">
       <div class="logo">André Luís Fernandes</div>
       <div>
@@ -28,9 +27,6 @@
         </ul>
       </div>
     </nav>
-    <!---->
-
-    <!-- Menu hamburguer-->
     <nav id="hamburger-nav">
       <div class="logo">André</div>
       <div class="hamburger-menu">
@@ -39,16 +35,13 @@
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
+        <ul class="menu-links">
           <li><a href="#profile" onclick="toggleMenu()">Perfil</a></li>
           <li><a href="#portfolio" onclick="toggleMenu()">Portfólio</a></li>
           <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
-        </div>
+        </ul>
       </div>
     </nav>
-    <!---->
-
-    <!-- Perfil-->
     <section class="box_profile" id="profile">
       <div class="section__pic-container">
         <img
@@ -122,9 +115,7 @@
       </div>
     </section>
     <br />
-    <!---->
     <hr />
-    <!-- Portfolio-->
     <section id="portfolio">
       <p class="section__text__p1">Conheça meus trabalhos</p>
       <h1 class="title">
@@ -132,11 +123,57 @@
         Portfólio
       </h1>
 
-      <div id="projects-grid"></div>
-    </section>
-    <!---->
+      <div
+        class="tabs-container"
+        style="
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+          margin-bottom: 30px;
+        "
+      >
+        <button
+          class="btn btn-color-1 tab-btn active"
+          onclick="openTab(event, 'tab-react')"
+        >
+          React
+        </button>
+        <button
+          class="btn btn-color-1 tab-btn"
+          onclick="openTab(event, 'tab-javascript')"
+        >
+          JavaScript
+        </button>
+        <button
+          class="btn btn-color-1 tab-btn"
+          onclick="openTab(event, 'tab-php')"
+        >
+          PHP
+        </button>
+        <button
+          class="btn btn-color-1 tab-btn"
+          onclick="openTab(event, 'tab-python')"
+        >
+          Python
+        </button>
+      </div>
 
-    <!-- Contato-->
+      <div id="tab-react" class="tab-content" style="display: block">
+        <div id="projects-grid-react"></div>
+      </div>
+
+      <div id="tab-javascript" class="tab-content" style="display: none">
+        <div id="projects-grid-javascript"></div>
+      </div>
+
+      <div id="tab-php" class="tab-content" style="display: none">
+        <div id="projects-grid-php"></div>
+      </div>
+
+      <div id="tab-python" class="tab-content" style="display: none">
+        <div id="projects-grid-python"></div>
+      </div>
+    </section>
     <hr />
     <section class="section-container1" id="contato">
       <h1 class="title">
@@ -184,9 +221,6 @@
         </div>
       </div>
     </section>
-    <!---->
-
-    <!-- Footer-->
     <footer>
       <nav>
         <div class="nav-links-container">
@@ -203,14 +237,10 @@
         - André Luís Fernandes. Todos os direitos reservados.
       </p>
     </footer>
-    <!---->
     <script src="js/projects.js"></script>
     <script src="js/script.js"></script>
     <script>
-      // Captura o ano atual usando o objeto Date
       const ano = new Date().getFullYear();
-
-      // Insere o ano dentro do elemento span com o id "ano-atual"
       document.getElementById("ano-atual").textContent = ano;
     </script>
   </body>
