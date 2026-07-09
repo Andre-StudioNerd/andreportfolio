@@ -16,14 +16,14 @@ const projects = [
   },
   {
     title: "Discoteca",
-    iconClass: "fa-brands fa-react icon_port_rt",
+    iconClass: "fa-brands fa-github icon_port_gt",
     link: "https://github.com/Andre-StudioNerd/Discoteca",
     category: "react",
     techs: ["React | Javascript", "HTML5 | CSS3"],
   },
   {
     title: "Planets",
-    iconClass: "fa-brands fa-react icon_port_rt",
+    iconClass: "fa-brands fa-github icon_port_gt",
     link: "https://github.com/Andre-StudioNerd/Planets",
     category: "react",
     techs: ["React | Javascript", "HTML5 | CSS3"],
