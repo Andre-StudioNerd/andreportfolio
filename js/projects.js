@@ -423,8 +423,8 @@ function renderProjects() {
     );
 
     // Roda o loop de 4 em 4 nos projetos filtrados
-    for (let i = 0; i < filteredProjects.length; i += 4) {
-      const chunk = filteredProjects.slice(i, i + 4);
+    for (let i = 0; i < filteredProjects.length; i += 5) {
+      const chunk = filteredProjects.slice(i, i + 5);
 
       const sectionContainer = document.createElement("div");
       sectionContainer.className = "section-container1";

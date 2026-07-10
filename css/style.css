@@ -29,6 +29,7 @@ p {
 
 h3 {
   margin-bottom: 20px;
+  font-size: 15px;
 }
 
 hr {
@@ -212,12 +213,12 @@ section {
 }
 
 .icon_port {
-  font-size: 80px;
+  font-size: 70px;
   color: #89669d;
   margin-bottom: 5px;
 }
 .icon_port_js {
-  font-size: 80px;
+  font-size: 70px;
   color: #ffd600;
   margin-bottom: 5px;
 }
@@ -229,25 +230,25 @@ section {
 }
 
 .icon_port_php {
-  font-size: 80px;
+  font-size: 70px;
   color: #f35045;
   margin-bottom: 5px;
 }
 
 .icon_port_rt {
-  font-size: 80px;
+  font-size: 70px;
   color: #61dafb;
   margin-bottom: 5px;
 }
 
 .icon_port_wp {
-  font-size: 80px;
+  font-size: 70px;
   color: #494949;
   margin-bottom: 5px;
 }
 
 .icon_port_gt {
-  font-size: 80px;
+  font-size: 70px;
   color: #000000;
   margin-bottom: 5px;
 }
@@ -259,8 +260,9 @@ section {
 
 .details-proj {
   margin-top: 8px;
+  margin-bottom: 8px;
   color: #414241;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .section-container {
@@ -456,6 +458,7 @@ section {
   padding-left: 8px;
   padding-right: 8px;
   border-radius: 5px;
+  margin-top: 5px;
   margin-bottom: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   font-size: 15px;
