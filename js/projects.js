@@ -445,7 +445,7 @@ function renderProjects() {
         projectCard.innerHTML = `
           <h3>${project.title}</h3>
           <p class="${project.iconClass.split(" ").pop()}"><i class="${project.iconClass}"></i></p>
-          <a href="${project.link}" target="_blank" class="btnlink"> Acessar o Site </a>
+          <a href="${project.link}" target="_blank" class="btnlink"> Acessar Projeto </a>
           ${techParagraphs}
         `;
         aboutContainers.appendChild(projectCard);
