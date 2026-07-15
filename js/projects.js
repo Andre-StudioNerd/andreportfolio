@@ -1,6 +1,13 @@
 // 1. Lista de todos os seus projetos (Facilidade total para adicionar ou deletar)
 const projects = [
   {
+    title: "Tarefas MEC",
+    iconClass: "fa-brands fa-react icon_port_rt",
+    link: "https://tarefas-mec.vercel.app/",
+    category: "react",
+    techs: ["React | Redux", "HTML5 | CSS3"],
+  },
+  {
     title: "Blog Hog",
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://blog-hoqwarts.vercel.app/",
