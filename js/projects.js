@@ -1,6 +1,13 @@
 // 1. Lista de todos os seus projetos (Facilidade total para adicionar ou deletar)
 const projects = [
   {
+    title: "Runner Board",
+    iconClass: "fa-brands fa-react icon_port_rt",
+    link: "https://runner-board.vercel.app/",
+    category: "react",
+    techs: ["React | Javascript", "HTML5 | CSS3"],
+  },
+  {
     title: "Tarefas MEC",
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://tarefas-mec.vercel.app/",
