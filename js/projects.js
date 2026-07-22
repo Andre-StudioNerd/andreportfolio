@@ -16,8 +16,8 @@ const projects = [
   },
   {
     title: "Blog Hog",
-    iconClass: "fa-brands fa-react icon_port_rt",
-    link: "https://blog-hoqwarts.vercel.app/",
+    iconClass: "fa-brands fa-github icon_port_rt",
+    link: "https://github.com/Andre-StudioNerd/BlogHoqwarts",
     category: "react",
     techs: ["React | Javascript", "HTML5 | CSS3"],
   },
