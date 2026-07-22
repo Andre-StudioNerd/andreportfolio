@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "Blog Hog",
-    iconClass: "fa-brands fa-github icon_port_rt",
+    iconClass: "fa-brands fa-github icon_port_gt",
     link: "https://github.com/Andre-StudioNerd/BlogHoqwarts",
     category: "react",
     techs: ["React | Javascript", "HTML5 | CSS3"],
@@ -196,13 +196,7 @@ const projects = [
     category: "python", // Corrigido/Adicionado
     techs: ["Python"],
   },
-  {
-    title: "Turtles Pizzaria",
-    iconClass: "fa-brands fa-react icon_port_rt",
-    link: "https://pizza-tn.vercel.app/",
-    category: "react",
-    techs: ["React | Typescript", "HTML5 | CSS3 "],
-  },
+
   {
     title: "Agenda Tech",
     iconClass: "fa-brands fa-react icon_port_rt",
@@ -210,13 +204,7 @@ const projects = [
     category: "react",
     techs: ["React | Typescript", "HTML5 | CSS3 "],
   },
-  {
-    title: "Restaurante Aluroni",
-    iconClass: "fa-brands fa-react icon_port_rt",
-    link: "https://aluroni-theta.vercel.app/",
-    category: "react",
-    techs: ["React | Typescript", "HTML5 | CSS3 "],
-  },
+
   {
     title: "Tela de Login",
     iconClass: "fa-brands fa-react icon_port_rt",
