@@ -115,10 +115,10 @@ const projects = [
   },
   {
     title: "Freelando",
-    iconClass: "fa-brands fa-js icon_port_js",
+    iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://freelando-app.vercel.app/",
-    category: "javascript",
-    techs: ["Javascript", "HTML5 | CSS3"],
+    category: "react",
+    techs: ["React", "HTML5 | CSS3"],
   },
   {
     title: "Python - POO",
