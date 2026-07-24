@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: "Planets",
-    iconClass: "fa-brands fa-github icon_port_gt",
+    iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://planets-gamma-rouge.vercel.app/",
     category: "react",
     techs: ["React | Javascript", "HTML5 | CSS3"],
