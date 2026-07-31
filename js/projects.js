@@ -1,6 +1,13 @@
 // 1. Lista de todos os seus projetos (Facilidade total para adicionar ou deletar)
 const projects = [
   {
+    title: "Loja Game",
+    iconClass: "fa-brands fa-react icon_port_rt",
+    link: "https://loja-game-topaz.vercel.app/",
+    category: "react",
+    techs: ["React | Typescript", "HTML5 | CSS3"],
+  },
+  {
     title: "Amipet",
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://amipet-pi.vercel.app/",
