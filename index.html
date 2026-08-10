@@ -18,210 +18,218 @@
   </head>
 
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">André Luís Fernandes</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#profile">Perfil</a></li>
-          <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">André</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+    <main>
+      <nav id="desktop-nav">
+        <div class="logo">André Luís Fernandes</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#profile">Perfil</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
         </div>
-        <ul class="menu-links">
-          <li><a href="#profile" onclick="toggleMenu()">Perfil</a></li>
-          <li><a href="#portfolio" onclick="toggleMenu()">Portfólio</a></li>
-          <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
-        </ul>
-      </div>
-    </nav>
-    <section class="box_profile" id="profile">
-      <div class="section__pic-container">
-        <img
-          class="img_profile"
-          src="./assets/foto_perfil.png"
-          alt="Andre Luis Fernandes"
-        />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Olá, Eu sou :</p>
-        <h1 class="title">André Luís Fernandes</h1>
-        <p class="section__text__p2">Desenvolvedor Full Stack</p>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">André</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-links">
+            <li><a href="#profile" onclick="toggleMenu()">Perfil</a></li>
+            <li><a href="#portfolio" onclick="toggleMenu()">Portfólio</a></li>
+            <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="box_profile" id="profile">
+        <div class="section__pic-container">
+          <img
+            class="img_profile"
+            src="./assets/foto_perfil.png"
+            alt="Andre Luis Fernandes"
+          />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Olá, Eu sou :</p>
+          <h1 class="title">André Luís Fernandes</h1>
+          <p class="section__text__p2">Desenvolvedor Full Stack</p>
 
-        <br />
-        <div class="btn-container">
+          <br />
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/andre_curriculo2026.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href = './#contato'"
+            >
+              Contato
+            </button>
+          </div>
+          <br />
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin_branco.png"
+              alt="Meu Linkedin"
+              title="Meu Linkedin"
+              class="icon"
+              onclick="
+                window.open(
+                  'https://www.linkedin.com/in/andrelfernan/',
+                  '_blank',
+                )
+              "
+            />
+            <img
+              src="./assets/github_branco.png"
+              alt="Meu Github"
+              title="Meu Github"
+              class="icon"
+              onclick="
+                window.open('https://github.com/Andre-StudioNerd', '_blank')
+              "
+            />
+            <img
+              src="./assets/pinrest_branco.png"
+              alt="Meu Pintrest"
+              title="Meu Pintrest"
+              class="icon"
+              onclick="
+                window.open('https://br.pinterest.com/andrel80/', '_blank')
+              "
+            />
+            <img
+              src="./assets/instagram_branco.png"
+              alt="Meu Isntagram"
+              title="Meu Isntagram"
+              class="icon"
+              onclick="
+                window.open(
+                  'https://www.instagram.com/andre_luisfernan',
+                  '_blank',
+                )
+              "
+            />
+          </div>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <section id="portfolio">
+        <p class="section__text__p1">Conheça meus trabalhos</p>
+        <h1 class="title">
+          <i class="fa-solid fa-briefcase"></i>
+          Portfólio
+        </h1>
+
+        <div
+          class="tabs-container"
+          style="
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+          "
+        >
           <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/andre_curriculo2026.pdf')"
+            class="btn btn-color-1 tab-btn active"
+            onclick="openTab(event, 'tab-react')"
           >
-            Download CV
+            React
           </button>
           <button
-            class="btn btn-color-1"
-            onclick="location.href = './#contato'"
+            class="btn btn-color-1 tab-btn"
+            onclick="openTab(event, 'tab-javascript')"
           >
-            Contato
+            JavaScript
+          </button>
+          <button
+            class="btn btn-color-1 tab-btn"
+            onclick="openTab(event, 'tab-php')"
+          >
+            PHP
+          </button>
+          <button
+            class="btn btn-color-1 tab-btn"
+            onclick="openTab(event, 'tab-python')"
+          >
+            Python
           </button>
         </div>
-        <br />
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin_branco.png"
-            alt="Meu Linkedin"
-            title="Meu Linkedin"
-            class="icon"
-            onclick="
-              window.open('https://www.linkedin.com/in/andrelfernan/', '_blank')
-            "
-          />
-          <img
-            src="./assets/github_branco.png"
-            alt="Meu Github"
-            title="Meu Github"
-            class="icon"
-            onclick="
-              window.open('https://github.com/Andre-StudioNerd', '_blank')
-            "
-          />
-          <img
-            src="./assets/pinrest_branco.png"
-            alt="Meu Pintrest"
-            title="Meu Pintrest"
-            class="icon"
-            onclick="
-              window.open('https://br.pinterest.com/andrel80/', '_blank')
-            "
-          />
-          <img
-            src="./assets/instagram_branco.png"
-            alt="Meu Isntagram"
-            title="Meu Isntagram"
-            class="icon"
-            onclick="
-              window.open(
-                'https://www.instagram.com/andre_luisfernan',
-                '_blank',
-              )
-            "
-          />
+
+        <div id="tab-react" class="tab-content" style="display: block">
+          <div id="projects-grid-react"></div>
         </div>
-      </div>
-    </section>
-    <br />
-    <hr />
-    <section id="portfolio">
-      <p class="section__text__p1">Conheça meus trabalhos</p>
-      <h1 class="title">
-        <i class="fa-solid fa-briefcase"></i>
-        Portfólio
-      </h1>
 
-      <div
-        class="tabs-container"
-        style="
-          display: flex;
-          justify-content: center;
-          gap: 15px;
-          margin-bottom: 30px;
-        "
-      >
-        <button
-          class="btn btn-color-1 tab-btn active"
-          onclick="openTab(event, 'tab-react')"
-        >
-          React
-        </button>
-        <button
-          class="btn btn-color-1 tab-btn"
-          onclick="openTab(event, 'tab-javascript')"
-        >
-          JavaScript
-        </button>
-        <button
-          class="btn btn-color-1 tab-btn"
-          onclick="openTab(event, 'tab-php')"
-        >
-          PHP
-        </button>
-        <button
-          class="btn btn-color-1 tab-btn"
-          onclick="openTab(event, 'tab-python')"
-        >
-          Python
-        </button>
-      </div>
-
-      <div id="tab-react" class="tab-content" style="display: block">
-        <div id="projects-grid-react"></div>
-      </div>
-
-      <div id="tab-javascript" class="tab-content" style="display: none">
-        <div id="projects-grid-javascript"></div>
-      </div>
-
-      <div id="tab-php" class="tab-content" style="display: none">
-        <div id="projects-grid-php"></div>
-      </div>
-
-      <div id="tab-python" class="tab-content" style="display: none">
-        <div id="projects-grid-python"></div>
-      </div>
-    </section>
-    <hr />
-    <section class="section-container1" id="contato">
-      <h1 class="title">
-        <i class="fa-solid fa-comment"></i>
-        Contato
-      </h1>
-      <p class="text_contact">
-        Se você precisa de um site moderno, responsivo e bem estruturado, estou
-        à disposição para ajudar! Sou desenvolvedor web e posso criar sites
-        institucionais, páginas personalizadas e muito mais, de acordo com suas
-        necessidades. Caso tenha interesse, podemos conversar para entender
-        melhor o seu projeto e definir a melhor solução. Entre em contato e
-        vamos transformar sua ideia em realidade!
-      </p>
-      <div class="space_contact">
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin_branco.png"
-            alt="LinkedIn icon"
-            class="icon_contato contact-icon"
-          />
-          <p>
-            <a href="https://www.linkedin.com/in/andrelfernan/" target="_blank">
-              LinkedIn
-            </a>
-          </p>
+        <div id="tab-javascript" class="tab-content" style="display: none">
+          <div id="projects-grid-javascript"></div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/whatsapp_branco.png"
-            alt="LinkedIn icon"
-            class="icon_contato contact-icon"
-          />
-          <p>
-            <a href="https://wa.me/5516996028689" target="_blank">WhatsApp</a>
-          </p>
+
+        <div id="tab-php" class="tab-content" style="display: none">
+          <div id="projects-grid-php"></div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/email_branco.png"
-            alt="LinkedIn icon"
-            class="icon_contato contact-icon"
-          />
-          <p>deco.luisfernandes@gmail.com</p>
+
+        <div id="tab-python" class="tab-content" style="display: none">
+          <div id="projects-grid-python"></div>
         </div>
-      </div>
-    </section>
+      </section>
+      <hr />
+      <section class="section-container1" id="contato">
+        <h1 class="title">
+          <i class="fa-solid fa-comment"></i>
+          Contato
+        </h1>
+        <p class="text_contact">
+          Se você precisa de um site moderno, responsivo e bem estruturado,
+          estou à disposição para ajudar! Sou desenvolvedor web e posso criar
+          sites institucionais, páginas personalizadas e muito mais, de acordo
+          com suas necessidades. Caso tenha interesse, podemos conversar para
+          entender melhor o seu projeto e definir a melhor solução. Entre em
+          contato e vamos transformar sua ideia em realidade!
+        </p>
+        <div class="space_contact">
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin_branco.png"
+              alt="LinkedIn icon"
+              class="icon_contato contact-icon"
+            />
+            <p>
+              <a
+                href="https://www.linkedin.com/in/andrelfernan/"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/whatsapp_branco.png"
+              alt="LinkedIn icon"
+              class="icon_contato contact-icon"
+            />
+            <p>
+              <a href="https://wa.me/5516996028689" target="_blank">WhatsApp</a>
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/email_branco.png"
+              alt="LinkedIn icon"
+              class="icon_contato contact-icon"
+            />
+            <p>deco.luisfernandes@gmail.com</p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <nav>
         <div class="nav-links-container">
