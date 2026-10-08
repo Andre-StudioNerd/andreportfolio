@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Loja Game",
     iconClass: "fa-brands fa-react icon_port_rt",
-    link: "https://loja-game-topaz.vercel.app/",
+    link: "https://game-shop-mu-gray.vercel.app/",
     category: "react",
     techs: ["React | Typescript", "HTML5 | CSS3"],
   },
