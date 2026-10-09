@@ -56,20 +56,7 @@ const projects = [
     category: "react",
     techs: ["React | Redux", "HTML5 | CSS3"],
   },
-  {
-    title: "Blog Hog",
-    iconClass: "fa-brands fa-github icon_port_gt",
-    link: "https://github.com/Andre-StudioNerd/BlogHoqwarts",
-    category: "react",
-    techs: ["React | Javascript", "HTML5 | CSS3"],
-  },
-  {
-    title: "AppBank",
-    iconClass: "fa-brands fa-react icon_port_rt",
-    link: "https://bank-sigma-lilac.vercel.app/",
-    category: "react",
-    techs: ["React | Javascript", "HTML5 | CSS3"],
-  },
+
   {
     title: "Discoteca",
     iconClass: "fa-brands fa-js icon_port_js",
@@ -415,27 +402,6 @@ const projects = [
     link: "https://andre-studionerd.github.io/Gerador_QRcode/",
     category: "javascript",
     techs: ["Javascript", "HTML5 | CSS3"],
-  },
-  {
-    title: "Blog Front-End",
-    iconClass: "fa-brands fa-github icon_port_gt",
-    link: "https://github.com/Andre-StudioNerd/Front_codemain",
-    category: "react",
-    techs: ["React | Javascript", "HTML5 | CSS3"],
-  },
-  {
-    title: "Blog Back-End",
-    iconClass: "fa-brands fa-github icon_port_gt",
-    link: "https://github.com/Andre-StudioNerd/Back_Codemain",
-    category: "react",
-    techs: ["React | Javascript", "HTML5 | CSS3"],
-  },
-  {
-    title: "react-runner-circle",
-    iconClass: "fa-brands fa-github icon_port_gt",
-    link: "https://github.com/Andre-StudioNerd/react-runner-circle",
-    category: "react",
-    techs: ["React | Javascript", "HTML5 | CSS3 | GraphQL"],
   },
 ];
 
