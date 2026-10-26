@@ -5,7 +5,7 @@ const projects = [
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://hq-shop.vercel.app/",
     category: "react",
-    techs: ["React", "HTML5 | CSS3"],
+    techs: ["React | Typescript", "HTML5 | CSS3"],
   },
   {
     title: "Ourbank",
