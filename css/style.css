@@ -299,6 +299,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  margin-top: 80px;
 }
 
 .section__text p {
