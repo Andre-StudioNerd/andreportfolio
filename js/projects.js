@@ -1,6 +1,13 @@
 // 1. Lista de todos os seus projetos (Facilidade total para adicionar ou deletar)
 const projects = [
   {
+    title: "HQSHOP",
+    iconClass: "fa-brands fa-react icon_port_rt",
+    link: "https://hq-shop.vercel.app/",
+    category: "react",
+    techs: ["React | Supabase", "HTML5 | CSS3"],
+  },
+  {
     title: "Ourbank",
     iconClass: "fa-brands fa-react icon_port_rt",
     link: "https://our-bank-phi.vercel.app/",
